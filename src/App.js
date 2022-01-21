@@ -5,6 +5,7 @@ import React, { useEffect } from 'react'
 import './App.css';
 import axios from 'axios';
 import Blog from "./blog"
+import Contact from './contact';
 function App() {
 
 
@@ -143,7 +144,8 @@ function App() {
 
       </div>
       <div className='line'></div>
-
+      <h1>Contacts</h1>
+      <Contact />
     </div>
   );
 }
